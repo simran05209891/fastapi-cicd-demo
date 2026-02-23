@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Auto CI/CD Deploy Working 🚀"}
+     return {"message": "Feature branch deployed 🚀"}
